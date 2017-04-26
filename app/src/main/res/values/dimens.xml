@@ -8,7 +8,8 @@
     <dimen name="text_margin">16dp</dimen>
     <dimen name="tutorial_shared_element_translate_y">56dp</dimen>
     <dimen name="tutorial_device_img_left_right_margin">32dp</dimen>
-
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
     <!-- Recommended -->
     <dimen name="recommended_margin">16dp</dimen>
     <dimen name="recommended_category_offset">16dp</dimen>

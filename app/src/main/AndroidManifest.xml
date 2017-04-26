@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="smktelkommalang.onboarding">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,6 +29,10 @@
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WatsonActivity"
+            android:label="@string/title_activity_watson"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
