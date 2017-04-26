@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="@dimen/space_size"
+            android:layout_height="@dimen/space_size"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/twitter_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ameba_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/ic_twitter" />
+
+        <ImageView
+            android:id="@+id/ameba_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/facebook_icon"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_toLeftOf="@+id/twitter_icon"
+            android:layout_toStartOf="@+id/twitter_icon"
+            android:src="@drawable/ic_abema" />
+
+        <ImageView
+            android:id="@+id/facebook_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/twitter_icon"
+            android:layout_toRightOf="@+id/twitter_icon"
+            android:src="@drawable/ic_facebook" />
+
+    </RelativeLayout>
+</layout>
