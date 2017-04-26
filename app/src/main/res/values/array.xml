@@ -70,6 +70,14 @@
         <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
         <item>Cape Town, South Africa</item>
     </string-array>
+    <string-array name="place_price">
+        <item>Rp. 5.000,-</item>
+        <item>Rp. 10.000,-</item>
+        <item>Rp. 7.000,-</item>
+        <item>Rp. 5.000,-</item>
+        <item>Rp. 5.000,-</item>
+        <item>Rp. 10.000,-</item>
+    </string-array>
     <array name="places_picture">
         <item>@drawable/a</item>
         <item>@drawable/b</item>

@@ -33,6 +33,8 @@ public class DetailActivity extends AppCompatActivity {
         tvDeskripsi.setText(wisata.deskripsi + "\n\n" + wisata.detail);
         TextView tvLokasi = (TextView) findViewById(R.id.place_location);
         tvLokasi.setText(wisata.lokasi);
+        TextView tvHarga = (TextView) findViewById(R.id.place_price);
+        tvHarga.setText(wisata.harga);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

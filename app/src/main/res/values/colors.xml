@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#3f51b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorBackground">#ececec</color>
@@ -8,7 +8,7 @@
     <color name="desert_storm">#f8f8f8</color>
     <color name="white_alpha100">#ffffff</color>
     <color name="pale_robin_egg_blue">#9ee2ce</color>
-    <color name="primary_color">#3dc49d</color>
+    <color name="primary_color">#FF6179FF</color>
     <color name="mountain_meadow">#2fbc8b</color>
     <color name="primary_color_darker">#2b896e</color>
     <color name="grey_light_primary">#999999</color>

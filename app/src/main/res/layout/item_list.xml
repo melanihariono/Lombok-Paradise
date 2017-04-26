@@ -42,6 +42,19 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             tools:text="Deskripsi" />
 
+        <TextView
+            android:id="@+id/textViewLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewDeskripsi"
+            android:layout_alignLeft="@+id/textViewJudul"
+            android:layout_alignStart="@+id/textViewJudul"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            tools:text="Lokasi" />
+
 
     </RelativeLayout>
 

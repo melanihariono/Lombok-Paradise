@@ -69,6 +69,7 @@ public class WisataActivity extends AppCompatActivity implements WisataAdapter.I
         String[] arDetail = resources.getStringArray(R.array.place_details);
         String[] arLokasi = resources.getStringArray(R.array.place_locations);
         TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        String[] arHarga = resources.getStringArray(R.array.place_price);
         String[] arFoto = new String[a.length()];
 
         for (int i = 0; i < arFoto.length; i++) {
@@ -84,7 +85,7 @@ public class WisataActivity extends AppCompatActivity implements WisataAdapter.I
 
         for (int i = 0; i < arjudul.length; i++) {
             mlist.add(new Wisata(arjudul[i], arDeskripsi[i],
-                    arDetail[i], arLokasi[i], arFoto[i]));
+                    arDetail[i], arLokasi[i], arFoto[i], arHarga[i]));
         }
         mAdapter.notifyDataSetChanged();
     }

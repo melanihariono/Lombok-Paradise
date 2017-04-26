@@ -42,6 +42,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
         holder.tvJudul.setText(wisata.judul);
         holder.tvDeskripsi.setText(wisata.deskripsi);
         holder.ivFoto.setImageURI(Uri.parse(wisata.foto));
+        holder.tvLokasi.setText(wisata.lokasi);
     }
 
     @Override
@@ -59,12 +60,14 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
         ImageView ivFoto;
         TextView tvJudul;
         TextView tvDeskripsi;
+        TextView tvLokasi;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            tvLokasi = (TextView) itemView.findViewById(R.id.textViewLokasi);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
